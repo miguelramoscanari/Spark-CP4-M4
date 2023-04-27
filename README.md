@@ -10,7 +10,7 @@ Resolucion CP M4 con SPARK SQL Y PYSPARK usando Databrics Community que es grati
 - Abrir notebook ""cp_m4_examen.ipynb", usando Worrksapce / import / File
 - En el Notebook, usar menu File / Upload data DBFS para añair "airports.csv", y "raw-flight-data.snappy.parquet"
 
-Nota: Para usar databricks, use este material del docente del curso.
+Nota: Para usar databricks, usen este material del docente del curso.
 https://drive.google.com/drive/folders/1uxegRyfwizG6C-btg0dazaPkWjy-QUBx
 
 # Explicacion del codigo
