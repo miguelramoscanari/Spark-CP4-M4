@@ -16,7 +16,7 @@ Usando Spark, creamos dos dataframes
 df1 = spark.read.parquet("dbfs:/FileStore/shared_uploads/tacnampt@gmail.com/raw_flight_data_snappy.parquet")
 df2 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/tacnampt@gmail.com/airports.csv")
 ```
-Para ver le esquema del dataframe "flight"
+Para ver el esquema del dataframe "flight"
 ```
 df1.printSchema()
 df1.show(2)
@@ -39,7 +39,7 @@ root
 |        30|        4|     UA|          11618|        12892|      -1|     -28|
 +----------+---------+-------+---------------+-------------+--------+--------+
 ```
-Para ver le esquema del dataframe "airport"
+Para ver el esquema del dataframe "airport"
 ```
 df2.printSchema()
 df2.show(2)
