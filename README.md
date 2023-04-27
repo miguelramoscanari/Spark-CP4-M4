@@ -3,7 +3,7 @@ Resolucion CP M4 con SPARK SQL Y PYSPARK usando Databrics Community que es grati
 
 # Contenido
 - "airports.csv", "raw-flight-data.snappy.parquet": fuente de datos
-- "cp_m4_examen.ipynb": notebook con el codigo fuente
+- "cp_m4_examen_miguel.ipynb": notebook con el codigo fuente
 
 # Databrics
 - Crear un cluster, usando Compute
